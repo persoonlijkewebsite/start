@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+<title>Contact</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="css/stijl.css">
+
+</head>
+<body>
+
+<header id="header"></header>
+<script src="js/header.js"></script>
+
+<main>
+
+    <h2>Contact</h2>
+
+    <article>
+        
+        <p>U kunt ons bereiken op telefoonnummer ...</p>
+        <p>Klik <a href="mailto:info@organisatie.nl">hier</a> om ons te bereiken via e-mail.</p>
+        <p>Ook kunt u gebruik maken van onderstaand formulier.</p>
+        <p>Wij nemen zo snel mogelijk contact met u op.</p>
+
+    </article>
+
+</main>
+
+<br>
+
+<form id="contactForm">
+
+    <div class="rij">
+        <label for="naam">Naam:</label>
+        <br>
+        <input type="text" id="naam" name="naam" required>
+    </div>
+
+    <br>
+
+    <div class="rij">
+        <label for="telefoon">Telefoonnummer:</label>
+        <br>
+        <input type="tel" id="telefoon" name="telefoon">
+    </div>
+
+    <br>
+
+    <div class="rij">
+        <label for="email">E-mailadres:</label>
+        <br>
+        <input type="email" id="email" name="email" required>
+    </div>
+
+    <br>
+
+    <div>
+        <label for="opmerking">Vraag of opmerking:</label>
+        <br>
+        <textarea id="opmerking" name="opmerking"></textarea></td>
+    </div>
+
+    <br>
+
+    <br>
+    <button type="submit">Verzenden</button>
+        
+    <br>
+    <button type="reset">
+        Wis alle velden van dit formulier
+    </button>
+
+</form>
+
+<footer id="footer"></footer>
+<script src="js/footer.js"></script>
+
+</body>
+</html>
